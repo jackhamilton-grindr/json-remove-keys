@@ -2,6 +2,12 @@
 name = "json-filter"
 version = "0.1.0"
 edition = "2021"
+license = "Unlicense"
+authors = ["Jack Hamilton jack.hamilton@grindr.com"]
+keywords = ["JSON"]
+categories = ["command-line-utilities"]
+repository = "https://github.com/jackhamilton-grindr/json-filter"
+description = "Removes keys from a json file, writing the file after."
 
 [dependencies]
 json = "0.12.4"
